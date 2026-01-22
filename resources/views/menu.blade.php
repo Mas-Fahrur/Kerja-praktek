@@ -6,8 +6,6 @@
     <title>Daftar Menu</title>
 
     <link rel="stylesheet" href="{{ asset('css/menu.css') }}">
-        <!-- Tailwind -->
-    <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 <body>
