@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resto Nusantara</title>
+    <title>Rumah Makan Sopsip Junior</title>
 
     <link rel="stylesheet" href="/css/style.css">
 
@@ -30,8 +30,6 @@
         </div>
     </nav>
 
-
-
     <!-- ================= HERO ================= -->
     <section class="hero reveal">
         <h1>Sajian Hidangan<br>masakan jawa</h1>
@@ -42,10 +40,8 @@
 
     </section>
 
-
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
 
     <!-- ================= FITUR ================= -->
     <section class="section-fitur reveal">
@@ -73,8 +69,6 @@
         </div>
     </section>
 
-
-
     <!-- ================= ABOUT ================= -->
     <section id="about" class="about-section">
         <div class="about-wrapper">
@@ -86,7 +80,7 @@
 
             <!-- RIGHT TEXT -->
             <div class="about-right reveal-right">
-                <h2 class="about-title">Dari Legenda ke<br>Layanan Profesional</h2>
+                <h2 class="about-title">Hidangan menggugah selera serta rasa yang khas</h2>
                 <p class="about-desc">
                     Warung makan ini merupakan usaha keluarga yang telah bertahan lintas
                     generasi.
@@ -114,7 +108,6 @@
 
         <!-- Subjudul & Judul -->
         <div class="menu-section-title">
-            <p class="menu-subtitle-top">SELALU PANAS, GURIH, MENGUNDANG</p>
             <h2 class="menu-main-title">Varian Menu<br>Kami</h2>
         </div>
 
@@ -226,10 +219,10 @@
 
         <div class="galeri-grid">
             <img class="reveal" src="/images/masak.jpg" alt="Foto Galeri 1">
-            <img class="reveal" src="/images/makan1.jpg" alt="Foto Galeri 2">
-            <img class="reveal" src="/images/masak2.jpg" alt="Foto Galeri 3">
+            <img class="reveal" src="/images/suasana1.jpeg" alt="Foto Galeri 2">
+            <img class="reveal" src="/images/musholla.jpg" alt="Foto Galeri 3">
             <img class="reveal" src="/images/takeaway.jpg" alt="Foto Galeri 4">
-            <img class="reveal" src="/images/makan2.jpg" alt="Foto Galeri 5">
+            <img class="reveal" src="/images/suasana 2.jpeg" alt="Foto Galeri 5">
             <img class="reveal" src="/images/jumber.jpeg" alt="Foto Galeri 6">
         </div>
     </section>
@@ -237,24 +230,30 @@
 
 
     <!-- ================= LOCATION ================= -->
-    <section class="location-section">
-        <div class="location-left">
-            <h2>Lokasi RM. Sopsip Junior</h2>
-            <p>
-                CRH8+6RF, Jl. Sukoreno, Kemlayan, Kec. Serengan, Kota Surakarta, Jawa Tengah 57151
-            </p>
-        </div>
+   <section class="location-section">
+    <!-- LEFT -->
+    <div class="location-left">
+        <img src="/images/lokasi.jpeg" alt="Lokasi RM Sopsip Junior" class="location-img">
 
-        <div class="location-right">
-            <div class="map-box">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.063474939!2d110.817181!3d-7.565425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a168c89343fed%3A0x52a8b2ddb3f7e9a4!2sJl.%20Sukoreno%2C%20Kemlayan%2C%20Kec.%20Serengan%2C%20Kota%20Surakarta%2C%20Jawa%20Tengah%2057151!5e0!3m2!1sid!2sid!4v1737638000000!5m2!1sid!2sid"
-                    width="100%" height="100%" style="border:0; border-radius:10px;" allowfullscreen=""
-                    loading="lazy">
-                </iframe>
-            </div>
+        <h2>Lokasi RM. Sopsip Junior</h2>
+        <p>
+            CRH8+6RF, Jl. Sukoreno, Kemlayan, Kec. Serengan, Kota Surakarta,
+            Jawa Tengah 57151
+        </p>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="location-right">
+        <div class="map-box">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.063474939!2d110.817181!3d-7.565425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a168c89343fed%3A0x52a8b2ddb3f7e9a4!2sJl.%20Sukoreno%2C%20Kemlayan%2C%20Kec.%20Serengan%2C%20Kota%20Surakarta%2C%20Jawa%20Tengah%2057151!5e0!3m2!1sid!2sid!4v1737638000000!5m2!1sid!2sid"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
         </div>
-    </section>
+    </div>
+</section>
+
 
 
 
@@ -263,11 +262,7 @@
         <div class="footer-left">
             <img src="{{ asset('images/logoo.png') }}" alt="Logo Resto" class="footer-logo">
 
-            <h2 class="footer-title">Rasa Legenda, Servis Profesional</h2>
-
-            <p class="footer-desc">
-
-            </p>
+            <h2 class="footer-title">Hidangan menggugah selera serta rasa yang khas</h2>
         </div>
 
         <div class="footer-right">
@@ -281,13 +276,13 @@
 
             <div class="footer-col">
                 <h3>Info Kontak</h3>
-                <p>📞 0813-2626-5040</p>
-                <p>📍 CRH8+6RF, Jl. Sukoreno, Kemlayan</p>
+                <p>0813-2626-5040</p>
+                
             </div>
 
             <div class="footer-col">
-                <h3>Waktu Resto</h3>
-                <p>Senin - Kamis: 10.00–16.00</p>
+                <h3>Jam Operasional</h3>
+                <p>Senin - Kamis: 10.00–15.00</p>
                 <p>Jumat: Khusus Jumat Berkah</p>
                 <p>Sabtu - Minggu: Libur</p>
             </div>

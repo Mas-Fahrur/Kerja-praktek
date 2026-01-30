@@ -146,31 +146,6 @@ body {
     color: #5c3925;
 }
 
-/* =============================
-   FOTO KATEGORI
-============================= */
-
-/* MAKANAN */
-.makanan-1 { background-image: url('/images/sop.jpg'); }
-.makanan-2 { background-image: url('/images/chatauge.jpg'); }
-.makanan-3 { background-image: url('/images/bihun.jpg'); }
-.makanan-4 { background-image: url('/images/osengpare.jpg'); }
-.makanan-5 { background-image: url('/images/osengdaunsingkong.jpg'); }
-.makanan-6 { background-image: url('/images/terong.jpg'); }
-.makanan-7 { background-image: url('/images/miegoreng.jpg'); }
-.makanan-8 { background-image: url('/images/nasi.jpg'); }
-
-/* MINUMAN */
-.minuman-1 { background-image: url('/images/esteh.jpg'); }
-.minuman-2 { background-image: url('/images/esjeruk.jpg'); }
-.minuman-3 { background-image: url('/images/eskampul.jpg'); }
-
-/* LAIN-LAIN */
-.lain-1 { background-image: url('/images/tahugoreng.jpg'); }
-.lain-2 { background-image: url('/images/tempe goreng.jpg'); }
-.lain-3 { background-image: url('/images/telor.jpg'); }
-.lain-4 { background-image: url('/images/ayamgoreng.jpg'); }
-.lain-5 { background-image: url('/images/krupuk.jpg'); }
 
 /* =============================
    BACK BUTTON
